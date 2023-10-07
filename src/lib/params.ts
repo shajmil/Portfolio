@@ -12,7 +12,7 @@ import {
 } from './types';
 import { Icons } from './utils';
 
-export const TITLE_SUFFIX = 'Slick template with Svelte';
+export const TITLE_SUFFIX = 'Shajmil Portfolio';
 
 export const NavBar = {
 	home: 'Home',
@@ -43,36 +43,22 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Shajmil',
+	lastName: 'VJ',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Passionate full-stack wizard with mastery in Angular, React, Nodejs, and Mongodb. Certified in JavaScript, MEARN stack, and ethical hacking—committed to perpetual growth. Currently crafting the future of KidsBuddy as an Angular maestro, sculpting flawless frontend experiences with iron-clad security. Proven track record from pivotal roles at Luminar Technolab and Udemy, hungry for dynamic challenges. Seeking a high-impact role to amplify success, contribute innovative solutions, and thrive in a dynamic professional environment. Eager, adaptable, and poised for exciting opportunities. Ready to revolutionize your team.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/shajmil' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
+			link: 'https://www.linkedin.com/in/shajmil/'
 		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
-		},
+
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'v.jshejmil@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
+
 	]
 };
 
@@ -93,7 +79,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: 'https://github.com/shajmil/RESUME/raw/main/SHAJMIL_RESUME.pdf'
 };
 
 export const SEARCH: SearchPageParams = {
